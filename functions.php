@@ -9,7 +9,8 @@
   <h1>PHP Functions</h1>
 
   <?php
-    function sayHi($name, $adjective) {
+    
+    function sayHi($name, $adjective){
       echo "Hello $name. You're so $adjective! <br>";
     }
     sayHi("Lizz", "beautiful");
