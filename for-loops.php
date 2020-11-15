@@ -8,6 +8,7 @@
 <body>
   <h1>PHP For Loops</h1>
   <?php
+    
     for ($index = 1; $index <= 5; $index++) {
       echo "index: $index <br>";
       echo "<p>Hello World!</p>";
