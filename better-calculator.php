@@ -7,8 +7,9 @@
 </head>
 <body>
   <h1>A Fully Functional PHP Calculator</h1>
+  <!-- HTML limits numbers to whole numbers unless we add the step with decimal values -->
   <form action="better-calculator.php" method="post">
-    First Num: <input type="number" name="num1"><br>
+    First Num: <input type="number" step="0.01" name="num1"><br>
     Operator: <input type="text" name="op"><br>
     Second Num: <input type="number" name="num2"><br>
     <input type="submit" value="Submit">
@@ -31,6 +32,6 @@
       echo "Invalid Operator";
     }
   ?>
-  
+
 </body>
 </html>
